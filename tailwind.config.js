@@ -11,7 +11,8 @@ module.exports = {
         'c2': "#5da9e9"
       },
       backgroundImage: {
-        'home-bg': "url('./images/home-bg.png')"
+        'home-bg': "url('./images/home-bg.png')",
+        'banner': "url('./images/banner-img.jpeg')"
       }
     },
   },

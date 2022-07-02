@@ -2,18 +2,16 @@
 import React from 'react';
 // Import required components
 import Login from './Login';
-import SearchBar from './SearchBar';
 // Import required images
-import logo from '../images/CGLogo.png';
-import cart from '../images/cart.svg'
+import logo from '../images/CGLogoWhite.png';
 
 const Nav = () => {
   return (
-    <div className='flex justify-between items-center text-c2 text-xl px-24'>
-        <a href="/">
-            <img src={logo} alt="logo" className='w-24' />
-        </a>
-        <Login />
+    <div className='flex justify-between items-center px-24 text-xl'>
+      <a href="/">
+        <img src={logo} alt="logo" className='w-32' />
+      </a>
+      <Login />
     </div>
   );
 };
