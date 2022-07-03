@@ -46,17 +46,17 @@ const Footer = () => {
             <div className='flex flex-col gap-7'>
                 <h1 className='text-xl font-bold'>Contact Us</h1>
                 <div className='flex flex-col gap-2'>
-                    <a href="tel:7850037958" className='bg-white text-black rounded-lg p-1 flex items-center border-white border-b-2 hover:border-black'>
+                    <a href="tel:7850037958" className='bg-white text-black rounded-lg p-1 flex items-center border-black border-b-2 hover:border-white'>
                         <img src={call} alt="call" className='w-6 pr-2' />
                         <p className='text-sm'>+91 7850037958</p>
                     </a>
 
-                    <a href="tel:7091045216" className='bg-white text-black rounded-lg p-1 flex items-center border-white border-b-2 hover:border-black'>
+                    <a href="tel:7091045216" className='bg-white text-black rounded-lg p-1 flex items-center border-black border-b-2 hover:border-white'>
                         <img src={call} alt="call" className='w-6 pr-2' />
                         <p className='text-sm'>+91 7091045216</p>
                     </a>
 
-                    <a href="mailto:collegegrahasthi@gmail.com" target="_blank" rel="noreferrer" className='bg-white text-black rounded-lg p-1 flex items-center border-white border-b-2 hover:border-black'>
+                    <a href="mailto:collegegrahasthi@gmail.com" target="_blank" rel="noreferrer" className='bg-white text-black rounded-lg p-1 flex items-center border-black border-b-2 hover:border-white'>
                         <img src={mail} alt="mail" className='w-6 pr-2' />
                         <p className='text-sm'>collegegrahasthi@gmail.com</p>
                     </a>
