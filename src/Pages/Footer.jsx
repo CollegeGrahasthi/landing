@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../images/CGLogo.png'
+// import logo from '../images/CGLogo.png'
 import call from '../images/call.png';
 import mail from '../images/mail.png';
 import facebook from '../images/facebook.png';
