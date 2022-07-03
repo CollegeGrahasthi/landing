@@ -58,7 +58,7 @@ const Home = () => {
           </p>
             
           <div className='pl-44 w-4/12'>
-            <Button value="Book Now !!" />
+            <Button value="Book Now !!" link="/" />
           </div>
 
         </div>

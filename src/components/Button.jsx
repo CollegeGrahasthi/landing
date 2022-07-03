@@ -1,10 +1,10 @@
 import React from 'react';
 
-const Button = ({ value }) => {
+const Button = ({ value, link }) => {
   return (
-    <button className='bg-red-600 text-white text-xl px-4 py-2 rounded-xl flex justify-center w-full'>
+    <a href={link} className='bg-red-600 text-white text-xl px-4 py-2 rounded-xl flex justify-center w-full'>
       { value }
-    </button>
+    </a>
 
   );
 };
