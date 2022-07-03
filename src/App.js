@@ -1,4 +1,5 @@
 import React from 'react';
+import Footer from './Pages/Footer';
 import Home from './Pages/Home';
 import Rooms from './Pages/Rooms';
 import Services from './Pages/Services';
@@ -9,6 +10,7 @@ const App = () => {
       <Home />
       <Rooms />
       <Services />
+      <Footer />
     </div>
   );
 };
