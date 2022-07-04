@@ -1,7 +1,7 @@
 import React from 'react';
-import Room from './RoomCard';
+import Room from './RoomCard.Home';
 
-const RoomsSection = () => {
+const Rooms = () => {
   return (
     <div className='h-screen'>
         <h1 className='text-4xl p-10 pb-0'>Rooms</h1>
@@ -24,4 +24,4 @@ const RoomsSection = () => {
   );
 };
 
-export default RoomsSection;
+export default Rooms;
