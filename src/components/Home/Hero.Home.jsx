@@ -1,12 +1,12 @@
 import React from 'react';
-import Button from './Button';
-import Nav from './Nav';
-import SearchBar from './SearchBar';
-// import Figures from './Figures';
-import checkMark from '../images/checked.png';
-import student from '../images/student.png';
+import Button from '../../components/Button';
+import Nav from '../../components/Nav';
+import SearchBar from '../../components/SearchBar';
+// import Figures from './Figures.Home';
+import checkMark from '../../images/checked.png';
+import student from '../../images/student.png';
 
-const HeroSection = () => {
+const Hero = () => {
   return (
     <>
       <div className='bg-home-bg bg-cover'>
@@ -68,4 +68,4 @@ const HeroSection = () => {
   );
 };
 
-export default HeroSection;
+export default Hero;

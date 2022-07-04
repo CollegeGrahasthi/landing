@@ -1,8 +1,8 @@
 import React from 'react';
-import bed from '../images/bed.png';
-import pg from '../images/pg.png';
-import cities from '../images/cities.png';
-import university from '../images/university.png';
+import bed from '../../images/bed.png';
+import pg from '../../images/pg.png';
+import cities from '../../images/cities.png';
+import university from '../../images/university.png';
 
 const Figures = () => {
   return (
