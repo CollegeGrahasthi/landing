@@ -1,5 +1,6 @@
 import React from 'react';
 // import logo from '../images/CGLogo.png'
+import star from '../images/star.png';
 import call from '../images/call.png';
 import mail from '../images/mail.png';
 import facebook from '../images/facebook.png';
@@ -19,6 +20,13 @@ const Footer = () => {
                 The usage is intended to promote, identify and search. 
                 No endorsement or partnership is implied.
             </p>
+            <div className='flex gap-2 pt-20'>
+                <img src={star} alt="star" className='w-10' />
+                <img src={star} alt="star" className='w-10' />
+                <img src={star} alt="star" className='w-10' />
+                <img src={star} alt="star" className='w-10' />
+                <img src={star} alt="star" className='w-10' />
+            </div>
         </div>
 
         <div className='flex justify-between w-3/5'>
