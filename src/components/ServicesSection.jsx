@@ -1,5 +1,5 @@
 import React from 'react';
-import Image from '../components/Image';
+import Image from './Image';
 import room from '../images/room.jpeg';
 import food from '../images/food.jpeg';
 import laundry from '../images/laundry.jpeg'
@@ -7,7 +7,7 @@ import roommates from '../images/roommates.jpeg';
 import gym from '../images/gym.jpeg';
 import maid from '../images/maid.jpeg';
 
-const Services = () => {
+const ServicesSection = () => {
   return (
     <div className='h-screen'>
         <h1 className='text-4xl p-10 pb-0'>Services</h1>
@@ -27,4 +27,4 @@ const Services = () => {
   );
 };
 
-export default Services;
+export default ServicesSection;

@@ -1,17 +1,16 @@
 import React from 'react';
-import Footer from './Pages/Footer';
-import Home from './Pages/Home';
-import Rooms from './Pages/Rooms';
-import Services from './Pages/Services';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Rooms from './pages/Rooms';
+import Home from './pages/Home';
 
 const App = () => {
   return (
-    <div>
-      <Home />
-      <Rooms />
-      <Services />
-      <Footer />
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path={'/'} element={<Home />} />
+        <Route path={'/rooms'} element={<Rooms />} />
+      </Routes>
+    </BrowserRouter>
   );
 };
 
