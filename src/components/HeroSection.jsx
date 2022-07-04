@@ -10,7 +10,7 @@ const HeroSection = () => {
   return (
     <>
       <div className='bg-home-bg bg-cover'>
-        <Nav />
+        <Nav minimal={true} />
 
         <div className='flex flex-col gap-6 items-center justify-center text-white py-20'>
 

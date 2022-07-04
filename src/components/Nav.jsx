@@ -4,15 +4,33 @@ import React from 'react';
 import Login from './Login';
 // Import required images
 import logo from '../images/CGLogoWhite.png';
+import SearchBar from './SearchBar';
 
-const Nav = () => {
+const Nav = ({ minimal }) => {
   return (
-    <div className='flex justify-between items-center px-24 text-xl'>
-      <a href="/">
-        <img src={logo} alt="logo" className='w-32' />
-      </a>
-      <Login />
-    </div>
+    <>
+    {
+      minimal && 
+      <div className='flex justify-between items-center px-24 text-xl'>
+        <a href="/">
+          <img src={logo} alt="logo" className='w-32' />
+        </a>
+        <Login />
+      </div>
+    }
+    {
+      !minimal && 
+      <div className='flex justify-between items-center px-24 text-xl bg-c1'>
+        <a href="/">
+          <img src={logo} alt="logo" className='w-20' />
+        </a>
+        <div className='w-2/3'>
+          <SearchBar />
+        </div>
+        <Login />
+      </div>
+    }
+    </>
   );
 };
 
