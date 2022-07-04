@@ -1,8 +1,11 @@
 import React from 'react';
+import Nav from '../components/Nav';
 
 const Rooms = () => {
   return (
-    <div>Rooms</div>
+    <div>
+      <Nav minimal={false} />
+    </div>
   );
 };
 
