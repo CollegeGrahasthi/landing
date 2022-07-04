@@ -1,7 +1,7 @@
 import React from 'react'
 import Button from './Button';
 
-const Room = ({ name, image, rent, facilities }) => {
+const RoomCard = ({ name, image, rent, facilities }) => {
   return (
     <div className='rounded-xl shadow-2xl w-96 bg-white'>
         <img src={image} alt="room" className='rounded-xl w-full' />
@@ -25,4 +25,4 @@ const Room = ({ name, image, rent, facilities }) => {
   );
 };
 
-export default Room;
+export default RoomCard;
