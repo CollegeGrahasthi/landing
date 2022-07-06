@@ -1,11 +1,14 @@
 import React from 'react';
 import Nav from '../components/Nav';
 import Disclosure from '../components/Rooms/Disclosure.Rooms';
+import RoomCard from '../components/Rooms/RoomCard.Rooms';
 
 const Rooms = () => {
+
   return (
     <div>
       <Nav minimal={false} />
+
       <div className='flex gap-10 px-20 py-16'>
         <div className='flex flex-col gap-3'>
           <h1 className='text-2xl font-medium pb-7'>Filters</h1>
@@ -16,7 +19,9 @@ const Rooms = () => {
         </div>
 
         <div>
-
+          <div>
+            <RoomCard />
+          </div>
         </div>
       </div>
     </div>
