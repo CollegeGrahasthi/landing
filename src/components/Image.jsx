@@ -8,7 +8,7 @@ const Image = ({ image, name, link }) => {
       </div>
 
       <a href={link} className='lg:text-6xl text-4xl text-white font-bold flex justify-center align-middle'>
-        <div className='md:w-full md:h-full w-[90%] h-[90%] bg-c1 rounded-xl absolute z-10 md:opacity-0 md:hover:opacity-100 bg-opacity-50 md:bg-opacity-0 md:hover:bg-opacity-50 flex justify-center items-center'>
+        <div className='md:w-full md:h-full w-[90%] h-[90%] bg-c2 rounded-xl absolute z-10 md:opacity-0 md:hover:opacity-100 bg-opacity-50 md:bg-opacity-0 md:hover:bg-opacity-50 flex justify-center items-center'>
           { name }
         </div>
       </a>
