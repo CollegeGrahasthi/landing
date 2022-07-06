@@ -3,16 +3,16 @@ import Button from '../../components/Button';
 
 const RoomCard = ({ name, image, rent, facilities }) => {
   return (
-    <div className='rounded-xl shadow-2xl md:w-96 w-80 md:h-full h-[27rem] bg-white'>
+    <div className='rounded-xl shadow-2xl md:w-96 w-80 md:m-10 h-fit bg-white'>
         <img src={image} alt="room" className='rounded-xl md:w-full' />
         <div className='py-4 pl-2'>
             <h1 className='text-xl font-semibold'>{ name }</h1>
             <p className='text-lg'>₹{ rent }</p>
             
-            <div className='flex flex-row gap-7'>
+            <div className='flex flex-wrap'>
                 {
                     facilities.map((facility) => (
-                        <p className=' py-2'>{facility}</p>
+                        <p className='py-2 px-2'>{facility}</p>
                     ))
                 }
             </div>

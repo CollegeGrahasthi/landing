@@ -70,27 +70,27 @@ const Footer = () => {
                         <p className='text-sm'>+91 7091045216</p>
                     </a>
 
-                    <a href="mailto:collegegrahasthi@gmail.com" target="_blank" rel="noreferrer" className='bg-white text-black rounded-lg p-1 flex items-center border-black border-b-2 hover:border-white'>
+                    <a href="mailto:collegegrahasthi@gmail.com" target="_blank" rel="noopener noreferrer" className='bg-white text-black rounded-lg p-1 flex items-center border-black border-b-2 hover:border-white'>
                         <img src={mail} alt="mail" className='w-6 pr-2' />
                         <p className='text-sm'>collegegrahasthi@gmail.com</p>
                     </a>
                     
-                    <a href="/" target="_blank" rel="noreferrer" className='p-1 flex items-center border-black border-b-2 hover:border-white'>
+                    <a href="/" target="_blank" rel="noopener noreferrer" className='p-1 flex items-center border-black border-b-2 hover:border-white'>
                         <img src={facebook} alt="mail" className='w-6 pr-2' />
                         <p>facebook</p>
                     </a>
 
-                    <a href="/" target="_blank" rel="noreferrer" className='p-1 flex items-center border-black border-b-2 hover:border-white'>
+                    <a href="/" target="_blank" rel="noopener noreferrer" className='p-1 flex items-center border-black border-b-2 hover:border-white'>
                         <img src={instagram} alt="mail" className='w-6 pr-2' />
                         <p>Instagram</p>
                     </a>
 
-                    <a href="/" target="_blank" rel="noreferrer" className='p-1 flex items-center border-black border-b-2 hover:border-white'>
+                    <a href="/" target="_blank" rel="noopener noreferrer" className='p-1 flex items-center border-black border-b-2 hover:border-white'>
                         <img src={twitter} alt="mail" className='w-6 pr-2' />
                         <p>Twitter</p>
                     </a>
 
-                    <a href="/" target="_blank" rel="noreferrer" className='p-1 flex items-center border-black border-b-2 hover:border-white'>
+                    <a href="/" target="_blank" rel="noopener noreferrer" className='p-1 flex items-center border-black border-b-2 hover:border-white'>
                         <img src={linkedin} alt="mail" className='w-6 pr-2' />
                         <p>LinkedIn</p>
                     </a>
@@ -110,27 +110,27 @@ const Footer = () => {
                         <p className='text-sm'>+91 7091045216</p>
                     </a>
 
-                    <a href="mailto:collegegrahasthi@gmail.com" target="_blank" rel="noreferrer" className='bg-white text-black rounded-lg p-1 flex items-center border-black border-b-2 hover:border-white'>
+                    <a href="mailto:collegegrahasthi@gmail.com" target="_blank" rel="noopener noreferrer" className='bg-white text-black rounded-lg p-1 flex items-center border-black border-b-2 hover:border-white'>
                         <img src={mail} alt="mail" className='w-6 pr-2' />
                         <p className='text-sm'>collegegrahasthi@gmail.com</p>
                     </a>
                     
-                    <a href="/" target="_blank" rel="noreferrer" className='p-1 flex items-center border-black border-b-2 hover:border-white'>
+                    <a href="/" target="_blank" rel="noopener noreferrer" className='p-1 flex items-center border-black border-b-2 hover:border-white'>
                         <img src={facebook} alt="mail" className='w-6 pr-2' />
                         <p>facebook</p>
                     </a>
 
-                    <a href="/" target="_blank" rel="noreferrer" className='p-1 flex items-center border-black border-b-2 hover:border-white'>
+                    <a href="/" target="_blank" rel="noopener noreferrer" className='p-1 flex items-center border-black border-b-2 hover:border-white'>
                         <img src={instagram} alt="mail" className='w-6 pr-2' />
                         <p>Instagram</p>
                     </a>
 
-                    <a href="/" target="_blank" rel="noreferrer" className='p-1 flex items-center border-black border-b-2 hover:border-white'>
+                    <a href="/" target="_blank" rel="noopener noreferrer" className='p-1 flex items-center border-black border-b-2 hover:border-white'>
                         <img src={twitter} alt="mail" className='w-6 pr-2' />
                         <p>Twitter</p>
                     </a>
 
-                    <a href="/" target="_blank" rel="noreferrer" className='p-1 flex items-center border-black border-b-2 hover:border-white'>
+                    <a href="/" target="_blank" rel="noopener noreferrer" className='p-1 flex items-center border-black border-b-2 hover:border-white'>
                         <img src={linkedin} alt="mail" className='w-6 pr-2' />
                         <p>LinkedIn</p>
                     </a>
