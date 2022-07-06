@@ -3,8 +3,8 @@ import Button from '../../components/Button';
 
 const RoomCard = ({ name, image, rent, facilities }) => {
   return (
-    <div className='rounded-xl shadow-2xl w-96 bg-white'>
-        <img src={image} alt="room" className='rounded-xl w-full' />
+    <div className='rounded-xl shadow-2xl md:w-96 w-80 md:h-full h-[27rem] bg-white'>
+        <img src={image} alt="room" className='rounded-xl md:w-full' />
         <div className='py-4 pl-2'>
             <h1 className='text-xl font-semibold'>{ name }</h1>
             <p className='text-lg'>₹{ rent }</p>

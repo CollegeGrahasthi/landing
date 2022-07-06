@@ -6,21 +6,40 @@ import laundry from '../../images/laundry.jpeg'
 import roommates from '../../images/roommates.jpeg';
 import gym from '../../images/gym.jpeg';
 import maid from '../../images/maid.jpeg';
-
+import { CarouselProvider, Slider, Slide, ButtonBack, ButtonNext } from 'pure-react-carousel';
 const ServicesSection = () => {
   return (
-    <div className='h-screen'>
+    <div className='md:h-screen h-[60%]'>
         <h1 className='text-4xl p-10 pb-0'>Services</h1>
         <div className='bg-black w-20 h-1 ml-10'></div>
-        <div className='flex justify-center gap-10 pt-20'>
+        <div className='md:flex hidden  justify-center gap-10 pt-20 flex-wrap'>
             <Image image={room} name="ROOMS" link="/" />
             <Image image={food} name="FOOD" link="/" />
             <Image image={laundry} name="Laundry" link="/" />
-        </div>
-        <div className='flex justify-center gap-10 pt-5'>
+     
             <Image image={roommates} name="ROOMMATES" link="/" />
             <Image image={gym} name="GYM" link="/" />
             <Image image={maid} name="MAID" link="/" />
+        </div>
+        <div className='md:hidden'>
+        <CarouselProvider
+        naturalSlideWidth={100}
+        naturalSlideHeight={100}
+        totalSlides={6}
+        isPlaying={true}
+        className='bg-white'
+      >
+        <Slider>
+
+            <Slide index={0} innerClassName='flex justify-center mt-4'><Image image={room} name="ROOMS" link="/" /></Slide>
+            <Slide index={1} innerClassName='flex justify-center mt-4'><Image image={food} name="FOOD" link="/" /></Slide>
+            <Slide index={2} innerClassName='flex justify-center mt-4'><Image image={laundry} name="Laundry" link="/" /></Slide>
+     
+            <Slide index={3} innerClassName='flex justify-center mt-4'><Image image={roommates} name="ROOMMATES" link="/" /></Slide>
+            <Slide index={4} innerClassName='flex justify-center mt-4'><Image image={gym} name="GYM" link="/" /></Slide>
+            <Slide index={5} innerClassName='flex justify-center mt-4'><Image image={maid} name="MAID" link="/" /></Slide>
+        </Slider>
+            </CarouselProvider>
         </div>
 
     </div>

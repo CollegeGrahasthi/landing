@@ -11,9 +11,9 @@ const Nav = ({ minimal }) => {
     <>
     {
       minimal && 
-      <div className='flex justify-between items-center px-24 text-xl'>
+      <div className='flex flex-col md:flex-row justify-between items-center px-24 text-xl'>
         <a href="/">
-          <img src={logo} alt="logo" className='w-32' />
+          <img src={logo} alt="logo" className='w-20 md:w-32' />
         </a>
         <Login />
       </div>
