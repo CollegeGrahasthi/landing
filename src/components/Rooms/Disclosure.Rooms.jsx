@@ -11,7 +11,7 @@ const Disclosure = ({ title, tags }) => {
 
     return (
         <div className='shadow rounded flex flex-col justify-center w-full lg:w-72'>
-            <div className='flex items-center justify-center gap-4 p-4 text-lg' onClick={handleClick}>
+            <div className='flex items-center justify-center lg:justify-start gap-4 p-4 text-lg' onClick={handleClick}>
                 {
                     open ? 
                         <img src={upArrow} alt="down arrow" className='w-6' />
