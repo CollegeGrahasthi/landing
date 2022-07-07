@@ -10,7 +10,7 @@ const Home = () => {
       <Hero />
       <Rooms />
       <Services />
-      <Footer />
+      <Footer bgColor="black" />
     </div>
   );
 };
