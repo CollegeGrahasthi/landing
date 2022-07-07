@@ -19,7 +19,7 @@ const RoomCard = ({ name, image, rent, facilities }) => {
         </div>
 
         <div className='flex justify-center p-2'>
-            <Button value="Buy Now !!" link="/rooms" bgColor="red-600" />
+            <Button value="Buy Now !!" link="/rooms" bgColor="c1" />
         </div>
     </div>
   );

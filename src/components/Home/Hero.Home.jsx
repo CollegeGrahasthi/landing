@@ -60,7 +60,7 @@ const Hero = () => {
           </p>
             
           <div className='pl-44 w-4/12'>
-            <Button value="Book Now !!" link="/" bgColor="red-600" />
+            <Button value="Book Now !!" link="/" bgColor="c1" />
           </div>
 
         </div>
@@ -74,7 +74,7 @@ const Hero = () => {
           </p>
             
           <div className=' w-[60%] flex mb-3'>
-            <Button value="Book Now !!" link="/" bgColor="red-600" />
+            <Button value="Book Now !!" link="/" bgColor="c1" />
           </div>
 
         </div>
