@@ -20,7 +20,7 @@ const Nav = ({ minimal }) => {
     }
     {
       !minimal && 
-      <div className='flex justify-between items-center px-24 text-xl bg-c1'>
+      <div className='flex justify-between items-center md:px-24 text-xl bg-c1'>
         <a href="/">
           <img src={logo} alt="logo" className='w-20' />
         </a>
