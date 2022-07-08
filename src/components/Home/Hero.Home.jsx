@@ -66,7 +66,7 @@ const Hero = () => {
           </p>
             
           <div className='pl-44 w-4/12'>
-            <Button value="Book Now !!" link="/rooms" bgColor="c1" />
+            <Button value="Book Now !!" link="/rooms" bgColor={"c1"} />
           </div>
 
         </div>
