@@ -5,11 +5,11 @@ import RoomCard from '../components/Rooms/RoomCard.Rooms';
 import Footer from '../components/Footer';
 import room from '../images/room.jpeg';
 
-const Rooms = ({ showModal, setShowModal }) => {
+const Rooms = () => {
 
   return (
     <div>
-      <Nav minimal={false} showModal={showModal} setShowModal={setShowModal} />
+      <Nav minimal={false} />
 
       <div className='flex flex-col md:flex-row gap-10 px-10 md:px-20 py-16'>
         <div className='flex flex-col gap-3'>

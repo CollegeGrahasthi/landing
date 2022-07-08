@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Button from '../Button';
 import Nav from '../Nav';
 import SearchBar from '../SearchBar';
@@ -7,7 +7,8 @@ import AuthModal from '../AuthModal';
 import checkMark from '../../images/checked.png';
 import student from '../../images/student.png';
 
-const Hero = ({ showModal, setShowModal }) => {
+const Hero = () => {
+  const [showModal, setShowModal] = useState(false);
 
   return (
     <>
