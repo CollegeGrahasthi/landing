@@ -4,10 +4,10 @@ import Rooms from '../components/Home/Rooms.Home';
 import Services from '../components/Home/Services.Home';
 import Footer from '../components/Footer';
 
-const Home = () => {
+const Home = ({ showModal, setShowModal }) => {
   return (
     <div>
-      <Hero />
+      <Hero showModal={showModal} setShowModal={setShowModal} />
       <Rooms />
       <Services />
       <Footer bgColor="black" />

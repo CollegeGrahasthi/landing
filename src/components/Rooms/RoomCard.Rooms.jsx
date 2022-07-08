@@ -12,7 +12,7 @@ const RoomCard = ({ image, distance, college, price, rooms, name, address, descr
             <div className='flex flex-col justify-between px-5 w-full'>
                 <div className='flex flex-col lg:flex-row lg:items-baseline pb-2'>
                     <h1 className='text-xl text-c1'>₹{price}</h1>
-                    <p className='text-sm text-c2 lg:px-2 '>{rooms}BHK</p>
+                    <p className='text-sm text-c2 lg:px-2'>{rooms}BHK</p>
                 </div>
 
                 <hr />

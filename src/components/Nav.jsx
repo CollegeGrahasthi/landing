@@ -1,12 +1,13 @@
-// Import required libraries
 import React from 'react';
-// Import required components
-import Login from './Login';
-// Import required images
-import logo from '../images/CGLogoWhite.png';
 import SearchBar from './SearchBar';
+import logo from '../images/CGLogoWhite.png';
+import user from '../images/user.jpeg';
 
-const Nav = ({ minimal }) => {
+const Nav = ({ minimal, showModal, setShowModal }) => {
+  const handleClick = () => {
+    setShowModal(!showModal);
+  };
+
   return (
     <>
     {
@@ -15,7 +16,10 @@ const Nav = ({ minimal }) => {
         <a href="/">
           <img src={logo} alt="logo" className='w-20 md:w-32' />
         </a>
-        <Login />
+
+        <div className='bg-black/25 rounded p-2'>
+          <p className='px-2 text-gray-300 hover:text-white hover:cursor-pointer' onClick={handleClick}>LogIn/SignUp</p>
+        </div>
       </div>
     }
     {
@@ -24,10 +28,14 @@ const Nav = ({ minimal }) => {
         <a href="/">
           <img src={logo} alt="logo" className='w-20' />
         </a>
+
         <div className='w-2/3'>
           <SearchBar />
         </div>
-        <Login />
+
+        <div className='w-12 hover:cursor-pointer'>
+          <img src={user} alt="user" className='rounded-full' />
+        </div>
       </div>
     }
     </>
