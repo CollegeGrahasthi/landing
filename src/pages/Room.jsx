@@ -2,10 +2,10 @@ import React from 'react';
 import Nav from '../components/Nav';
 import Footer from '../components/Footer';
 
-const Room = ({}) => {
+const Room = () => {
   return (
     <div>
-      <Nav />
+      <Nav minimal={false} />
       <Footer bgColor="c1" />
     </div>
   );
