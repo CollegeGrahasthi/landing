@@ -27,7 +27,7 @@ const Hero = () => {
             <SearchBar />
           </div>
 
-          <div className='flex w-[90%] md:w-4/12  items-center gap-6 bg-black/50 h-12 rounded-xl px-2'>
+          <div className='flex w-[90%] md:w-4/12 items-center justify-between bg-black/50 h-12 rounded-xl px-2'>
 
             <div className='flex items-center'>
               <img src={checkMark} alt="check mark" className='w-5' />
@@ -66,6 +66,7 @@ const Hero = () => {
         </div>
         <img src={student} alt="student" className='pr-10 absolute w-52 right-0 bottom-0' />
       </div>
+
       <div className='bg-banner md:hidden flex mt-6 mx-2 flex-col  rounded-xl justify-between items-center relative' style={{backgroundImage:`url(${banner1})`}}>
         <div className='flex flex-col items-center '>
 
