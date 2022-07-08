@@ -11,7 +11,7 @@ const Rooms = () => {
     <div>
       <Nav minimal={false} />
 
-      <div className='flex flex-col md:flex-row gap-10 px-20 py-16'>
+      <div className='flex flex-col md:flex-row gap-10 px-10 md:px-20 py-16'>
         <div className='flex flex-col gap-3'>
           <h1 className='text-2xl font-medium pb-7'>Filters</h1>
           <Disclosure title="Rooms" tags={["1BHK", "2BHK", "Others"]} />
