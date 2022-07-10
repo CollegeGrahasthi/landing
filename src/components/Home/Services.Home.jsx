@@ -1,5 +1,5 @@
 import React from 'react';
-import Image from '../Image';
+import Image from './Image';
 import room from '../../images/room.jpeg';
 import food from '../../images/food.jpeg';
 import laundry from '../../images/laundry.jpeg'
