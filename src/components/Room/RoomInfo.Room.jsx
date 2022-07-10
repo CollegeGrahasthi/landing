@@ -4,7 +4,7 @@ import SecondaryButton from '../SecondaryButton';
 
 const RoomInfo = ({ room, allImages, name, address, distance, college, description, price }) => {
     return (
-        <div className='flex flex-col md:flex-row items-center md:items-start py-10 md:px-36 bg-c2/30'>
+        <div className='flex flex-col md:flex-row items-center md:items-start py-10 md:py-20 md:px-36 bg-c2/30'>
             <div className='bg-black border-4 md:border-8 border-black rounded-xl md:mr-10 w-full md:w-2/3'>
                 <img src={room} alt="room" className='rounded-xl' />
                 <div className='border-4 md:border-t-8 border-black rounded-xl flex flex-wrap lg:flex-row justify-between'>
