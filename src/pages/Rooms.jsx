@@ -78,7 +78,7 @@ const Rooms = () => {
         </div>
       </div>
 
-      <Footer bgColor="black" />
+      <Footer bgColor="bg-c1" borderColor="border-c1" />
 
     </div>
   );

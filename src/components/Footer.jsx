@@ -8,9 +8,9 @@ import instagram from '../images/instagram.png';
 import twitter from '../images/twitter.png';
 import linkedin from '../images/linkedin.png';
 
-const Footer = ({ bgColor }) => {
+const Footer = ({ bgColor, borderColor }) => {
   return (
-    <div className={`bg-${bgColor} text-white pt-20 pb-10 md:px-32 flex md:flex-row flex-col md:justify-between justify-center`}>
+    <div className={`${bgColor} text-white pt-20 pb-10 md:px-32 flex md:flex-row flex-col md:justify-between justify-center`}>
 
         <div className='flex flex-col '>
             <h1 className='text-4xl font-bold pb-2 md:text-left text-center'>College Grahasthi</h1>
@@ -40,21 +40,21 @@ const Footer = ({ bgColor }) => {
             <div className='md:flex hidden flex-col gap-7'>
                 <h1 className='text-xl font-bold'>Company</h1>
                 <div className='flex flex-col gap-2'>
-                    <a href="/" className={`border-${bgColor} border-b-2 hover:border-white`}>About</a>
-                    <a href="/" className={`border-${bgColor} border-b-2 hover:border-white`}>Careers</a>
-                    <a href="/" className={`border-${bgColor} border-b-2 hover:border-white`}>Blogs</a>
+                    <a href="/" className={`${borderColor} border-b-2 hover:border-white`}>About</a>
+                    <a href="/" className={`${borderColor} border-b-2 hover:border-white`}>Careers</a>
+                    <a href="/" className={`${borderColor} border-b-2 hover:border-white`}>Blogs</a>
                 </div>
             </div>
             
             <div className='md:flex hidden flex-col gap-7'>
                 <h1 className='text-xl font-bold'>Get Help</h1>
                 <div className='flex flex-col gap-2'>
-                    <a href="/" className={`border-${bgColor} border-b-2 hover:border-white`}>How It Works</a>
-                    <a href="/" className={`border-${bgColor} border-b-2 hover:border-white`}>FAQs</a>
-                    <a href="/" className={`border-${bgColor} border-b-2 hover:border-white`}>Contact</a>
-                    <a href="/" className={`border-${bgColor} border-b-2 hover:border-white`}>Terms</a>
-                    <a href="/" className={`border-${bgColor} border-b-2 hover:border-white`}>Privacy</a>
-                    <a href="/" className={`border-${bgColor} border-b-2 hover:border-white`}>Sitemap</a>
+                    <a href="/" className={`${borderColor} border-b-2 hover:border-white`}>How It Works</a>
+                    <a href="/" className={`${borderColor} border-b-2 hover:border-white`}>FAQs</a>
+                    <a href="/" className={`${borderColor} border-b-2 hover:border-white`}>Contact</a>
+                    <a href="/" className={`${borderColor} border-b-2 hover:border-white`}>Terms</a>
+                    <a href="/" className={`${borderColor} border-b-2 hover:border-white`}>Privacy</a>
+                    <a href="/" className={`${borderColor} border-b-2 hover:border-white`}>Sitemap</a>
                 </div>          
             </div>
             <div className='md:flex hidden flex-col md:w-[40%] w-[90%]  gap-7 md:text-left text-center'>
@@ -75,22 +75,22 @@ const Footer = ({ bgColor }) => {
                         <p className='text-sm'>collegegrahasthi@gmail.com</p>
                     </a>
                     
-                    <a href="/" target="_blank" rel="noopener noreferrer" className={`p-1 flex items-center border-${bgColor} border-b-2 hover:border-white`}>
+                    <a href="/" target="_blank" rel="noopener noreferrer" className={`p-1 flex items-center ${borderColor} border-b-2 hover:border-white`}>
                         <img src={facebook} alt="mail" className='w-6 pr-2' />
                         <p>facebook</p>
                     </a>
 
-                    <a href="/" target="_blank" rel="noopener noreferrer" className={`p-1 flex items-center border-${bgColor} border-b-2 hover:border-white`}>
+                    <a href="/" target="_blank" rel="noopener noreferrer" className={`p-1 flex items-center ${borderColor} border-b-2 hover:border-white`}>
                         <img src={instagram} alt="mail" className='w-6 pr-2' />
                         <p>Instagram</p>
                     </a>
 
-                    <a href="/" target="_blank" rel="noopener noreferrer" className={`p-1 flex items-center border-${bgColor} border-b-2 hover:border-white`}>
+                    <a href="/" target="_blank" rel="noopener noreferrer" className={`p-1 flex items-center ${borderColor} border-b-2 hover:border-white`}>
                         <img src={twitter} alt="mail" className='w-6 pr-2' />
                         <p>Twitter</p>
                     </a>
 
-                    <a href="/" target="_blank" rel="noopener noreferrer" className={`p-1 flex items-center border-${bgColor} border-b-2 hover:border-white`}>
+                    <a href="/" target="_blank" rel="noopener noreferrer" className={`p-1 flex items-center ${borderColor} border-b-2 hover:border-white`}>
                         <img src={linkedin} alt="mail" className='w-6 pr-2' />
                         <p>LinkedIn</p>
                     </a>
@@ -115,22 +115,22 @@ const Footer = ({ bgColor }) => {
                         <p className='text-sm'>collegegrahasthi@gmail.com</p>
                     </a>
                     
-                    <a href="/" target="_blank" rel="noopener noreferrer" className={`p-1 flex items-center border-${bgColor} border-b-2 hover:border-white`}>
+                    <a href="/" target="_blank" rel="noopener noreferrer" className={`p-1 flex items-center ${borderColor} border-b-2 hover:border-white`}>
                         <img src={facebook} alt="mail" className='w-6 pr-2' />
                         <p>facebook</p>
                     </a>
 
-                    <a href="/" target="_blank" rel="noopener noreferrer" className={`p-1 flex items-center border-${bgColor} border-b-2 hover:border-white`}>
+                    <a href="/" target="_blank" rel="noopener noreferrer" className={`p-1 flex items-center ${borderColor} border-b-2 hover:border-white`}>
                         <img src={instagram} alt="mail" className='w-6 pr-2' />
                         <p>Instagram</p>
                     </a>
 
-                    <a href="/" target="_blank" rel="noopener noreferrer" className={`p-1 flex items-center border-${bgColor} border-b-2 hover:border-white`}>
+                    <a href="/" target="_blank" rel="noopener noreferrer" className={`p-1 flex items-center ${borderColor} border-b-2 hover:border-white`}>
                         <img src={twitter} alt="mail" className='w-6 pr-2' />
                         <p>Twitter</p>
                     </a>
 
-                    <a href="/" target="_blank" rel="noopener noreferrer" className={`p-1 flex items-center border-${bgColor} border-b-2 hover:border-white`}>
+                    <a href="/" target="_blank" rel="noopener noreferrer" className={`p-1 flex items-center ${borderColor} border-b-2 hover:border-white`}>
                         <img src={linkedin} alt="mail" className='w-6 pr-2' />
                         <p>LinkedIn</p>
                     </a>

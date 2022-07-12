@@ -12,7 +12,7 @@ const Home = () => {
       <Rooms />
       <Services />
       <Testimonials />
-      <Footer bgColor="black" />
+      <Footer bgColor="bg-black" borderColor="border-black" />
     </div>
   );
 };

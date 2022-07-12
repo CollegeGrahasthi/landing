@@ -34,7 +34,7 @@ const RoomCard = ({ image, distance, college, price, rooms, name, address, descr
                 </div>
 
                 <div className='flex justify-between'>
-                    <Button value="Book Now" link="tel:7091045216" bgColor="c1" />
+                    <Button value="Book Now" link="tel:7091045216" bgColor="bg-c1" />
                 </div>
             </div>
         </div>

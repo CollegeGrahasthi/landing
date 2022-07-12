@@ -53,7 +53,7 @@ const AuthModal = ({ setShowModal }) => {
             />
             
             <div className='m-2'>
-                <Button value="Sign Up" link="/rooms" bgColor="white" />
+                <Button value="Sign Up" link="/rooms" bgColor="bg-white" />
             </div>
             <p>{error}</p>
             

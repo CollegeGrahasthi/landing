@@ -24,7 +24,7 @@ const Room = () => {
         <Reviews />
       </div>
 
-      <Footer bgColor="c1" />
+      <Footer bgColor="bg-c1" borderColor="border-c1" />
     </div>
   );
 };

@@ -31,13 +31,13 @@ const RoomInfo = ({ room, allImages, name, address, distance, college, descripti
                 <p className='text-xl font-semibold py-2'>At ₹{ price }</p>
                 
                 <div className='hidden md:flex gap-2 py-2'>
-                    <SecondaryButton value="Enquire" link="tel:7091045216" bgColor={"c1"} />
-                    <SecondaryButton value="Buy" link="tel:7091045216" bgColor={"c1"} />
+                    <SecondaryButton value="Enquire" link="tel:7091045216" bgColor="bg-c1" />
+                    <SecondaryButton value="Buy" link="tel:7091045216" bgColor="bg-c1" />
                 </div>
 
                 <div className='flex md:hidden gap-2 p-2 w-full'>
-                    <Button value="Enquire" link="tel:7091045216" bgColor={"c1"} />
-                    <Button value="Buy" link="tel:7091045216" bgColor={"c1"} />
+                    <Button value="Enquire" link="tel:7091045216" bgColor="bg-c1" />
+                    <Button value="Buy" link="tel:7091045216" bgColor="bg-c1" />
                 </div>
             </div>
         </div>
