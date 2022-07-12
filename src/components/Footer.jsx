@@ -96,47 +96,7 @@ const Footer = ({ bgColor }) => {
                     </a>
                 </div>          
             </div>
-            <div className="md:hidden flex md:justify-end justify-center w-full">
-            <div className='flex flex-col md:w-[40%] w-[90%]  gap-7 md:text-left text-center'>
-                <h1 className='text-xl font-bold md:text-left text-center'>Contact Us</h1>
-                <div className='flex flex-col gap-2 justify-center'>
-                    <a href="tel:7850037958" className='bg-white text-black rounded-lg p-1 flex items-center border-black border-b-2 hover:border-white'>
-                        <img src={call} alt="call" className='w-6 pr-2' />
-                        <p className='text-sm'>+91 7850037958</p>
-                    </a>
-
-                    <a href="tel:7091045216" className='bg-white text-black rounded-lg p-1 flex items-center border-black border-b-2 hover:border-white'>
-                        <img src={call} alt="call" className='w-6 pr-2' />
-                        <p className='text-sm'>+91 7091045216</p>
-                    </a>
-
-                    <a href="mailto:collegegrahasthi@gmail.com" target="_blank" rel="noopener noreferrer" className='bg-white text-black rounded-lg p-1 flex items-center border-black border-b-2 hover:border-white'>
-                        <img src={mail} alt="mail" className='w-6 pr-2' />
-                        <p className='text-sm'>collegegrahasthi@gmail.com</p>
-                    </a>
-                    
-                    <a href="/" target="_blank" rel="noopener noreferrer" className={`p-1 flex items-center border-${bgColor} border-b-2 hover:border-white`}>
-                        <img src={facebook} alt="mail" className='w-6 pr-2' />
-                        <p>facebook</p>
-                    </a>
-
-                    <a href="/" target="_blank" rel="noopener noreferrer" className={`p-1 flex items-center border-${bgColor} border-b-2 hover:border-white`}>
-                        <img src={instagram} alt="mail" className='w-6 pr-2' />
-                        <p>Instagram</p>
-                    </a>
-
-                    <a href="/" target="_blank" rel="noopener noreferrer" className={`p-1 flex items-center border-${bgColor} border-b-2 hover:border-white`}>
-                        <img src={twitter} alt="mail" className='w-6 pr-2' />
-                        <p>Twitter</p>
-                    </a>
-
-                    <a href="/" target="_blank" rel="noopener noreferrer" className={`p-1 flex items-center border-${bgColor} border-b-2 hover:border-white`}>
-                        <img src={linkedin} alt="mail" className='w-6 pr-2' />
-                        <p>LinkedIn</p>
-                    </a>
-                </div>          
-            </div>
-            </div>
+           
         </div>
     </div>
   );

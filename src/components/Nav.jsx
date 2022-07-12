@@ -12,7 +12,8 @@ const Nav = ({ minimal, showModal, setShowModal }) => {
     <>
     {
       minimal && 
-      <div className='flex flex-col md:flex-row justify-between items-center px-24 text-xl'>
+      <div>
+        <div className='md:flex hidden flex-row justify-between items-center px-24 text-xl'>
         <a href="/">
           <img src={logo} alt="logo" className='w-20 md:w-32' />
         </a>
@@ -21,6 +22,15 @@ const Nav = ({ minimal, showModal, setShowModal }) => {
           <p className='px-2 text-gray-300 hover:text-white hover:cursor-pointer' onClick={handleClick}>LogIn/SignUp</p>
         </div>
       </div>
+        <div className='md:hidden flex flex-col justify-between items-center px-24 text-xl'>
+        <a href="/">
+          <img src={logo} alt="logo" className='w-20 md:w-32' />
+        </a>
+        <div className='bg-black/25 rounded p-2'>
+          <p className='px-2 text-gray-300 hover:text-white hover:cursor-pointer' onClick={handleClick}>LogIn/SignUp</p>
+        </div>
+      </div>
+        </div>
     }
     {
       !minimal && 

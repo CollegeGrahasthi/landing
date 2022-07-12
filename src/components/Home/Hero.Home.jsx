@@ -66,7 +66,7 @@ const Hero = () => {
           </p>
             
           <div className='pl-44 w-4/12'>
-            <Button value="Book Now !!" link="/rooms" bgColor={"c1"} />
+            <Button value="Book Now !!" link="/rooms" bgColor={"bg-red-600"} />
           </div>
 
         </div>
@@ -81,7 +81,7 @@ const Hero = () => {
           </p>
             
           <div className=' w-[60%] flex mb-3'>
-            <Button value="Book Now !!" link="/rooms" bgColor="c1" />
+            <Button value="Book Now !!" link="/rooms" bgColor="bg-red-600" />
           </div>
 
         </div>
