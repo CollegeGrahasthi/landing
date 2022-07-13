@@ -54,44 +54,44 @@ const Nav = ({ minimal, showModal, setShowModal }) => {
                 </div>
                 
                 <div className='flex  flex-col md:w-[40%] w-[90%]  gap-1 md:text-left text-center'>
-                    <h1 className='text-xl font-bold md:text-left text-left mt-[10px]'>
-                      Contact Us
-                    </h1>
+                  <h1 className='text-xl font-bold md:text-left text-left mt-[10px]'>
+                    Contact Us
+                  </h1>
 
-                    <div className='flex flex-col gap-2 justify-center'>
-                      <div className='flex justify-center mt-[0.5rem]'>
-                        <a href="/" target="_blank" rel="noopener noreferrer" className={`p-1 flex items-center`}>
-                          <img src={facebook} alt="mail" className='w-6 pr-2' />
-                        </a>
-
-                        <a href="/" target="_blank" rel="noopener noreferrer" className={`p-1 flex items-center`}>
-                          <img src={instagram} alt="mail" className='w-6 pr-2' />
-                        </a>
-
-                        <a href="/" target="_blank" rel="noopener noreferrer" className={`p-1 flex items-center `}>
-                          <img src={twitter} alt="mail" className='w-6 pr-2' />
-                        </a>
-
-                        <a href="/" target="_blank" rel="noopener noreferrer" className={`p-1 flex items-center `}>
-                          <img src={linkedin} alt="mail" className='w-6 pr-2' />
-                        </a>
-                      </div>
-
-                      <a href="tel:7850037958" className='bg-white text-black rounded-lg p-1 flex items-center '>
-                        <img src={call} alt="call" className='w-6 pr-2' />
-                        <p className='text-sm'>+91 7850037958</p>
+                  <div className='flex flex-col gap-2 justify-center'>
+                    <div className='flex justify-center mt-[0.5rem]'>
+                      <a href="/" target="_blank" rel="noopener noreferrer" className={`p-1 flex items-center`}>
+                        <img src={facebook} alt="mail" className='w-6 pr-2' />
                       </a>
 
-                      <a href="tel:7091045216" className='bg-white text-black rounded-lg p-1 flex items-center '>
-                        <img src={call} alt="call" className='w-6 pr-2' />
-                        <p className='text-sm'>+91 7091045216</p>
+                      <a href="/" target="_blank" rel="noopener noreferrer" className={`p-1 flex items-center`}>
+                        <img src={instagram} alt="mail" className='w-6 pr-2' />
                       </a>
 
-                      <a href="mailto:collegegrahasthi@gmail.com" target="_blank" rel="noopener noreferrer" className='bg-white text-black rounded-lg p-1 flex items-center '>
-                        <img src={mail} alt="mail" className='w-6 pr-2' />
-                        <p className='text-sm'>collegegrahasthi@gmail.com</p>
+                      <a href="/" target="_blank" rel="noopener noreferrer" className={`p-1 flex items-center `}>
+                        <img src={twitter} alt="mail" className='w-6 pr-2' />
                       </a>
-                    </div>          
+
+                      <a href="/" target="_blank" rel="noopener noreferrer" className={`p-1 flex items-center `}>
+                        <img src={linkedin} alt="mail" className='w-6 pr-2' />
+                      </a>
+                    </div>
+
+                    <a href="tel:7850037958" className='bg-white text-black rounded-lg p-1 flex items-center '>
+                      <img src={call} alt="call" className='w-6 pr-2' />
+                      <p className='text-sm'>+91 7850037958</p>
+                    </a>
+
+                    <a href="tel:7091045216" className='bg-white text-black rounded-lg p-1 flex items-center '>
+                      <img src={call} alt="call" className='w-6 pr-2' />
+                      <p className='text-sm'>+91 7091045216</p>
+                    </a>
+
+                    <a href="mailto:collegegrahasthi@gmail.com" target="_blank" rel="noopener noreferrer" className='bg-white text-black rounded-lg p-1 flex items-center '>
+                      <img src={mail} alt="mail" className='w-6 pr-2' />
+                      <p className='text-sm'>collegegrahasthi@gmail.com</p>
+                    </a>
+                  </div>          
                 </div>
               </div>
             </div>
